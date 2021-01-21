@@ -10,7 +10,8 @@ import intent from '@alan-ai/alan-sdk-web';
 function App() {
   const alanBtnInstance = useRef(null);
 
-  intent("go back", p => {
+  intent("Go back", "Go back to the previous screen", (p) => {
+    console.log("THIS RAN")
     p.play("Testing this is cool");
     p.play({ command: "go:back" });
   })
@@ -21,7 +22,8 @@ function App() {
         key: "78907422e81aa61487f9b5348554e7192e956eca572e1d8b807a3e2338fdd0dc/stage",
         rootEl: document.getElementById('alan-button'),
         onCommand: (commandData) => {
-          if (commandData.command === "go:back") {
+          console.log('command ran')
+          if (commandData === "go:back") {
             console.log('WENT BACK')
           }
         }
