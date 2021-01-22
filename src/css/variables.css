@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+
 :root{
-  --colors-accent: #ffeb3b;
-  --colors-accent-variant: #3b4fff;
+  --colors-accent: #880e4f;
+  --colors-accent-v1:#fce4ec;
+  --colors-accent-v2: #880e12;
   --colors-black: #000;
   --colors-white: #FFF;
 
@@ -14,8 +17,8 @@
   --button-border-radius: 4px;
 
   --font-size-sm: 1.2rem;
-  --font-size-med: 1.6rem;
-  --font-size-lg: 2rem;
+  --font-size-med: 2rem;
+  --font-size-lg: 4rem;
 
   --max-page-width: 80vw;
 
@@ -23,7 +26,7 @@
 
   --border-width: 1px;
   
-  --font: "Verdana", sans-serif;
+  --font:'Cormorant Garamond', serif;
 }
 
 
@@ -31,7 +34,7 @@
   :root{
    --spacer-med: 1.8rem;
    --spacer-lg: 2.4rem;
-
+   --font-size-sm: 2rem;
   } 
 
 }

@@ -1,3 +1,9 @@
-.alan-button{
-  align-items: left;
+.question{
+  background-color: var(--colors-accent-v1);
+  min-height: 50vh;
+  padding: var(--spacer-sm);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
